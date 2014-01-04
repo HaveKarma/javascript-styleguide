@@ -1,6 +1,7 @@
 # JavaScript Styleguide
 
 It's important to write code that is consistent and thus maintainable. Follow these rules.
+
 (formatting and some rules based on https://github.com/aheckmann/js-styleguide) 
 
 ## Table of Contents
