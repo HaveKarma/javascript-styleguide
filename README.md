@@ -14,9 +14,7 @@ It's important to write code that is consistent and thus maintainable. Follow th
 * [Constructor Names](#constructor-names)
 * [Function Spacing](#function-spacing)
 * [Semi-colons](#semi-colons)
-* [Variables](#variables)
-* [Comma First](#commas)
-* [Equality](#equality)
+* [Variables](#variables)t
 * [Self](#references-to-this)
 * [Errors](#errors)
 * [Return Early](#return-early)
