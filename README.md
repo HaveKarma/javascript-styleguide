@@ -19,7 +19,6 @@ It's important to write code that is consistent and thus maintainable. Follow th
 * [Self](#references-to-this)
 * [Errors](#errors)
 * [Return Early](#return-early)
-* [`new` is Optional](#new-is-optional)
 * [Inline Documentation](#inline-documentation)
 * [Modifying Native Prototypes](#modifying-native-prototypes)
 * [CoffeeScript](#coffeescript)
@@ -275,34 +274,6 @@ function checkSomething(req, res, next) {
     res.render('plan', doc);
   });
 };
-```
-
-### `new` is Optional
-
-In constructors, first check if the function was called without the `new`
-keyword and correct it if possible by returning a new instance of the
-constructor and passing along the arguments.
-This guards against programmer error with negligable downside.
-
-```js
-function Script(code) {
-  this.code = code;
-};
-
-var script = Script('var x = 1');
-console.log(script); // undefined
-
-// better
-function Script(code) {
-  if (!(this instanceof Script)) {
-    return new Script(code);
-  }
-
-  this.code = code;
-};
-
-var script = Script('var x = 1');
-console.log(script); // { code: 'var x = 1' }
 ```
 
 ## Inline Documentation
