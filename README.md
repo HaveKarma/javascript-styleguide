@@ -15,7 +15,7 @@ It's important to write code that is consistent and thus maintainable. Follow th
 * [Constructor Names](#constructor-names)
 * [Function Spacing](#function-spacing)
 * [Semi-colons](#semi-colons)
-* [Variables](#variables)t
+* [Variables](#variables)
 * [Self](#references-to-this)
 * [Errors](#errors)
 * [Return Early](#return-early)
@@ -23,6 +23,9 @@ It's important to write code that is consistent and thus maintainable. Follow th
 * [Inline Documentation](#inline-documentation)
 * [Modifying Native Prototypes](#modifying-native-prototypes)
 * [CoffeeScript](#coffeescript)
+* [Use Strict](#use-strict)
+* [JSHint](#jshint)
+* [Single/Double Quotes](#single-quote-vs-double-quote)
 
 ## Coding Guide
 
@@ -347,5 +350,47 @@ exports.contains = function(array, needle) {
 ## CoffeeScript
 
 Is banned. Just learn JavaScript. Really. Its a simple language.
+
+## Use Strict
+
+Always. No exceptions. At the top of every file
+```js
+'use strict';
+```
+
+## JSHint
+
+All files must pass jshint validation, and it's built into our gruntfile to aid with this. 
+
+If you love yourself, you'll install something in your editor to help with this inline.
+
+Rules:
+
+```json
+{
+    "node": true,
+    "browser": true,
+    "jquery": true,
+    "eqeqeq": true,
+    "indent": 4,
+    "latedef": true,
+    "quotmark": "single",
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "curly": true,
+    "camelcase": true,
+    "strict": true
+}
+```
+
+## Single Quote vs Double Quote
+
+We always use single quotes in JS files because that's what I decided. There doesn't seem to be a winner
+
+(http://stackoverflow.com/questions/242813/when-to-use-double-or-single-quotes-in-javascript)
+
+However, JSON files require double-quotes to be validated, so pure JSON files use double.
+
 
 
