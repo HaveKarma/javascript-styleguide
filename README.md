@@ -34,7 +34,7 @@ Spaces, always. 4 spaces because our monitors are huge.
 
 ### Line Length
 
-**80** characters max.
+**120** characters max. We have giant monitors.
 
 ### Whitespace
 
