@@ -4,6 +4,17 @@ It's important to write code that is consistent and thus maintainable. Follow th
 
 (formatting and some rules based on https://github.com/aheckmann/js-styleguide) 
 
+### Tools
+Here are some tools I recommend for making your development at Karma better. We use [Atom Editor](https://atom.io) as our main editor and highly recommend it. Here are some helpful plugins:
+
+* [Travis CI Status](https://github.com/tombell/travis-ci-status) - always know if you break the build!
+* [Gist-It](https://github.com/rpowelll/gist-it) - Easy way to share code snippets in Slack. Make sure you set it up to use private gists!
+* [Linter](https://github.com/AtomLinter/Linter) - In-line Linting (see next two entries)
+* [Linter-jshint](https://github.com/AtomLinter/linter-jshint) - JSHint support for linter
+* [Linter-json](https://github.com/AtomLinter/linter-jsonlint) - JSON Lint support for linter
+* [TODO Show](https://github.com/jamischarles/atom-todo-show) - Keep track of all the @TODO and @HACK code spots
+* [Autocomplete Plus](https://github.com/atom-community/autocomplete-plus) - Want your autocomplete to pop up automatically?
+
 ## Table of Contents
 
 * [Tabs vs Spaces](#tabs-or-spaces)
