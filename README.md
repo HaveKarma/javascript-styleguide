@@ -2,7 +2,7 @@
 
 It's important to write code that is consistent and thus maintainable. Follow these rules.
 
-(formatting and some rules based on https://github.com/aheckmann/js-styleguide) 
+(formatting and some rules based on https://github.com/aheckmann/js-styleguide)
 
 ### Tools
 Here are some tools I recommend for making your development at Karma better. We use [Atom Editor](https://atom.io) as our main editor and highly recommend it. Here are some helpful plugins:
@@ -13,6 +13,7 @@ Here are some tools I recommend for making your development at Karma better. We 
 * [Linter-jshint](https://github.com/AtomLinter/linter-jshint) - JSHint support for linter
 * [Linter-json](https://github.com/AtomLinter/linter-jsonlint) - JSON Lint support for linter
 * [TODO Show](https://github.com/jamischarles/atom-todo-show) - Keep track of all the @TODO and @HACK code spots
+    * Settings: ```TODOs, /TODO:?(.+$)/g, HACK, /HACK:?(.+$)/g```
 * [Autocomplete Plus](https://github.com/atom-community/autocomplete-plus) - Want your autocomplete to pop up automatically?
 
 ## Table of Contents
@@ -342,7 +343,7 @@ Always. No exceptions. At the top of every file
 
 ## JSHint
 
-All files must pass jshint validation, and it's built into our gruntfile to aid with this. 
+All files must pass jshint validation, and it's built into our gruntfile to aid with this.
 
 If you love yourself, you'll install something in your editor to help with this inline.
 
@@ -373,6 +374,3 @@ We always use single quotes in JS files because that's what I decided. There doe
 (http://stackoverflow.com/questions/242813/when-to-use-double-or-single-quotes-in-javascript)
 
 However, JSON files require double-quotes to be validated, so pure JSON files use double.
-
-
-
