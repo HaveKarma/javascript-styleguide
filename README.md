@@ -7,6 +7,7 @@ It's important to write code that is consistent and thus maintainable. Follow th
 ### Tools
 Here are some tools I recommend for making your development at Karma better. We use [Atom Editor](https://atom.io) as our main editor and highly recommend it. Here are some helpful plugins:
 
+* [Atom-Beautify](https://atom.io/packages/atom-beautify) - Great way to clean up code that has gotten ugly from people editing with different editors and copypasta!
 * [Gist-It](https://github.com/rpowelll/gist-it) - Easy way to share code snippets in Slack. Make sure you set it up to use private gists!
 * [Linter](https://github.com/AtomLinter/Linter) - In-line Linting (see next two entries)
 * [Linter-jshint](https://github.com/AtomLinter/linter-jshint) - JSHint support for linter
