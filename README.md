@@ -1,4 +1,5 @@
-# JavaScript Styleguide
+# OUT OF DATE - TAKE LOOSELY SINCE WE'RE SWITCHING TO ES6
+# JavaScript Styleguidea
 
 It's important to write code that is consistent and thus maintainable. Follow these rules.
 
